@@ -6,5 +6,5 @@
 - This function computes the metric gini = 2 * roc_auc - 1 based on transmitted feature and percentile.
 - After the best percentile for the feature is determined, the value corresponding to it is found. All higher values in the feature are substituted by it. 
 ### In the file Models.ipynb main steps are shown for the following tasks: 
-* training and evaluating the CatBoostClassifier model;
+* training the CatBoostClassifier model and its` evaluation;
 * selection of hyperparameters` optimal values for the LGBMClassifier model.
